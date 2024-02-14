@@ -1,0 +1,36 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Nachos Pettigrew",
+            "precio": 2.75,
+            "descripcion": "Tortillas de maiz con queso cheddar",
+            "cantidad" : 1,
+            "imagenProducto": "./Imagenes/comida1.png"
+          },
+          {
+            "id": 2,
+            "nombre": "Nachos Pettigrew",
+            "precio": 2.75,
+            "cantidad" : 1,
+            "descripcion": "Tortillas de maiz con queso cheddar",
+            "imagenProducto": "./Imagenes/comida2.png"
+          },
+          {
+            "id": 3,
+            "nombre": "Nachos Pettigrew",
+            "precio": 2.75,
+            "cantidad" : 1,
+            "descripcion": "Tortillas de maiz con queso cheddar",
+            "imagenProducto": "./Imagenes/comida3.png"
+          },
+          {
+            "id": 4,
+            "nombre": "Nachos Pettigrew",
+            "precio": 2.75,
+            "cantidad" : 1,
+            "descripcion": "Tortillas de maiz con queso cheddar",
+            "imagenProducto": "./Imagenes/comida4.png"
+          }
+    ]
+}

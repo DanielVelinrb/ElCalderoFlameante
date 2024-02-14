@@ -1,0 +1,180 @@
+{
+    "secciones": [
+      {
+        "id": "nachos",
+        "nombre": "Nachos",
+        "imagenSeccion": "./Imagenes/nachos.png",
+        "productos": [
+          {
+            "id": 1,
+            "nombre": "Nachos Pettigrew",
+            "precio": 2.75,
+            "descripcion": "Tortillas de maiz con queso cheddar",
+            "imagenProducto": "./Imagenes/comida1.png"
+          },
+          {
+            "id": 2,
+            "nombre": "Nachos Lestrange",
+            "precio": 3.75,
+            "descripcion": "Tortillas de maiz con queso cheddar y tocino",
+            "imagenProducto": "./Imagenes/comida2.png"
+          },
+          {
+            "id": 3,
+            "nombre": "Nachos Harry",
+            "precio": 2.75,
+            "descripcion": "Deliciosos nachos con queso cheddar y pollo",
+            "imagenProducto": "./Imagenes/comida3.png"
+          },
+          {
+            "id": 4,
+            "nombre": "Nachos Hagrid",
+            "precio": 7.99,
+            "descripcion": "Tortillas de maiz con queso cheddar y carnes",
+            "imagenProducto": "./Imagenes/comida4.png"
+          }
+        ]
+      },
+      {
+        "id": "papas",
+        "nombre": "Papas",
+        "imagenSeccion": "./Imagenes/papas.png",
+        "productos": [
+          {
+            "id": 5,
+            "nombre": "Papas Dobby",
+            "precio": 1.75,
+            "descripcion": "Papas fritas solas",
+            "imagenProducto": "./Imagenes/comida1.png"
+          },
+          {
+            "id": 6,
+            "nombre": "Papas Ron",
+            "precio": 3.75,
+            "descripcion": "Salchipapa",
+            "imagenProducto": "./Imagenes/comida2.png"
+          },
+          {
+            "id": 7,
+            "nombre": "Papas Fred",
+            "precio": 2.75,
+            "descripcion": "Papipollo",
+            "imagenProducto": "./Imagenes/comida3.png"
+          },
+          {
+            "id": 8,
+            "nombre": "Papas Neville",
+            "precio": 4.75,
+            "descripcion": "Papa completa, huevo, carne y salchicha",
+            "imagenProducto": "./Imagenes/comida4.png"
+          }
+        ]
+      },
+      {
+        "id": "alitas",
+        "nombre": "Alitas",
+        "imagenSeccion": "./Imagenes/alitas.png",
+        "productos": [
+          {
+            "id": 9,
+            "nombre": "Alitas Andromeda",
+            "precio": 5.75,
+            "descripcion": "6 Alitas BBQ",
+            "imagenProducto": "./Imagenes/comida1.png"
+          },
+          {
+            "id": 10,
+            "nombre": "Alitas Blatrix",
+            "precio": 5.75,
+            "descripcion": "6 Alitas Buffalo",
+            "imagenProducto": "./Imagenes/comida2.png"
+          },
+          {
+            "id": 11,
+            "nombre": "Alitas Moly",
+            "precio": 5.75,
+            "descripcion": "6 Alitas Honney Mustard",
+            "imagenProducto": "./Imagenes/comida3.png"
+          },
+          {
+            "id": 12,
+            "nombre": "Alitas Duley",
+            "precio": 5.75,
+            "descripcion": "6 Alitas",
+            "imagenProducto": "./Imagenes/comida4.png"
+          }
+        ]
+      },
+      {
+        "id": "hamburguesas",
+        "nombre": "Hamburguesas",
+        "imagenSeccion": "./Imagenes/hamburguesas.png",
+        "productos": [
+          {
+            "id": 13,
+            "nombre": "Hamburguesa Ginny",
+            "precio": 4.75,
+            "descripcion": "Hamburguesa simple",
+            "imagenProducto": "./Imagenes/comida1.png"
+          },
+          {
+            "id": 14,
+            "nombre": "Hamburguesa Greg",
+            "precio": 5.75,
+            "descripcion": "Hamburguesa Doble",
+            "imagenProducto": "./Imagenes/comida2.png"
+          },
+          {
+            "id": 15,
+            "nombre": "Hamburguesa Vernon",
+            "precio": 6.75,
+            "descripcion": "Hamburguesa Triple",
+            "imagenProducto": "./Imagenes/comida3.png"
+          },
+          {
+            "id": 16,
+            "nombre": "Hamburguesa Duley",
+            "precio": 8.75,
+            "descripcion": "Hamburguesa completo, huevo, carne y salchicha",
+            "imagenProducto": "./Imagenes/comida4.png"
+          }
+        ]
+      },
+      {
+        "id": "bebidas",
+        "nombre": "Bebidas",
+        "imagenSeccion": "./Imagenes/bebidas.png",
+        "productos": [
+          {
+            "id": 17,
+            "nombre": "Limonada Hermione",
+            "precio": 3.75,
+            "descripcion": "Limonada de hierba buena",
+            "imagenProducto": "./Imagenes/limonadaHermione.png"
+          },
+          {
+            "id": 18,
+            "nombre": "Cerveza Mantequilla",
+            "precio": 3.75,
+            "descripcion": "La mitica de las 3 escobas",
+            "imagenProducto": "./Imagenes/cervezaMantequilla.png"
+          },
+          {
+            "id": 19,
+            "nombre": "Gaseosas",
+            "precio": 1.5,
+            "descripcion": "Como Sirius",
+            "imagenProducto": "./Imagenes/gaseosas.png"
+          },
+          {
+            "id": 20,
+            "nombre": "Agua",
+            "precio": 1.50,
+            "descripcion": "Tan simple como Severus",
+            "imagenProducto": "./Imagenes/agua.png"
+          }
+        ]
+      }
+    ]
+  }
+  
