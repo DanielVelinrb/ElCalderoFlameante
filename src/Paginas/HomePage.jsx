@@ -4,7 +4,7 @@ import '../styles.css'
 export const HomePage = () => {
   return (
     <div>
-        <img src="./Imagenes/banner.png" alt="banner descripcion" width="100%" height="auto"/>
+        <img src="./Imagenes/banner.png" alt="banner descripcion" width="100%" height="auto" tabIndex={0}/>
         <nav className="navbarFood">
           <div className="menu-itemsFood"><a href="#nachos">Nachos</a></div>
           <div className="menu-itemsFood"><a href="#papas">Papas</a></div>

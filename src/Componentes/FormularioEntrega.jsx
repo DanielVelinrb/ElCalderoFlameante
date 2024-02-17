@@ -3,7 +3,7 @@ export const FormularioEntrega = () => {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1px 1fr', gap: '20px', maxWidth: '70%', margin: 'auto', padding: '60px 0px'}}>
 
         <div>
-          <h2 style={{ fontSize: '26px', color: '#1D3E43', textAlign: 'center', marginBottom: '20px' }}>Datos de Facturación</h2>
+          <h2 tabIndex={0} style={{ fontSize: '26px', color: '#1D3E43', textAlign: 'center', marginBottom: '20px' }}>Datos de Facturación</h2>
           <form>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '40px',
         fontSize: '24px', color: '#1D3E43', fontWeight: 'bold', marginBottom: '20px' }} >
@@ -21,7 +21,7 @@ export const FormularioEntrega = () => {
   
         <div style={{ background: 'black', width: '2px'}}></div>
           <div>
-          <h2 style={{ fontSize: '26px', color: '#1D3E43', textAlign: 'center', marginBottom: '20px' }}>Datos de Pago</h2>
+          <h2 tabIndex={0} style={{ fontSize: '26px', color: '#1D3E43', textAlign: 'center', marginBottom: '20px' }}>Datos de Pago</h2>
           <form>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '40px',
         fontSize: '24px', color: '#1D3E43', fontWeight: 'bold', marginBottom: '20px' }}>

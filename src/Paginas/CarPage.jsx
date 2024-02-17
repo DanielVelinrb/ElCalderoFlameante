@@ -15,7 +15,7 @@ export function CarPage() {
       <ResumenCompra titulo="Su Orden"></ResumenCompra> 
       <FormularioEntrega></FormularioEntrega>
       <div style={{ textAlign: 'center',paddingBottom: '40px'}}>
-          <button onClick={handleClick} style={{ background: '#1D3E43', color: '#E8D2A3', fontSize: '26px', width: '16%', padding: '13px 11px'}}>Pagar</button>
+          <button onClick={handleClick} style={{ background: '#1D3E43', color: '#E8D2A3', fontSize: '26px', width: '26%', padding: '13px 11px'}}>Pagar</button>
       </div>
     </div>
   );

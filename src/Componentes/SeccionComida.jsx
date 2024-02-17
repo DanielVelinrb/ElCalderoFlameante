@@ -5,24 +5,24 @@ export const SeccionComida = () => {
       <div>
       {data.secciones.map((seccion) => (
         <div id={seccion.id}>
-          <img src={seccion.imagenSeccion} alt={seccion.nombre} width="100%" height="302px"/>
-          <h2 style={{fontSize: '26px', color: '#1D3E43', paddingLeft: '80px'}}>{seccion.nombre}</h2>
+          <img src={seccion.imagenSeccion} alt={seccion.nombre} width="100%" height="302px" tabIndex={0}/>
+          <h2 style={{fontSize: '26px', color: '#1D3E43', paddingLeft: '80px'}} tabIndex={0}>{seccion.nombre}</h2>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', paddingBottom: '70px'}}>
           {seccion.productos.map((producto) => (
               <div key={producto.id} style={{ display: 'flex', width: '40%', margin: '10px', textAlign: 'left', 
                     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)', borderRadius: '5px', overflow: 'hidden'}}>
                 <img src={producto.imagenProducto} alt={producto.nombre} style={{ width: '200px', height: '200px', 
-                    objectFit: 'cover' }} />
+                    objectFit: 'cover' }} tabIndex={0}/>
                 <div style={{ paddingLeft: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'space-around', width: '60%' }}>
-                  <h3 style={{ fontSize: '28px',marginTop: '-4px'}}> {producto.nombre} </h3>
+                  <h3 style={{ fontSize: '28px',marginTop: '-4px'}} tabIndex={0}> {producto.nombre} </h3>
                   <p style={{ 
                     fontSize: '20px',
-                    marginTop: '-25px'}}>
+                    marginTop: '-25px'}} tabIndex={0}>
                         {producto.descripcion}</p>
                   <p style={{ 
                     fontSize: '24px',
                     marginTop: '-20px',
-                    textAlign: 'center'}}> US${producto.precio}</p>
+                    textAlign: 'center'}} tabIndex={0}> US${producto.precio}</p>
                     <div style={{    display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-30px'}}>
                   <button 
                     style={{ 

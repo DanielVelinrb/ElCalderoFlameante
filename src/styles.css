@@ -20,6 +20,14 @@
     text-decoration: none;
 }
 
+.boton-CTA {
+  background: '#1D3E43';
+  color: '#E8D2A3';
+  font-size: '26px'; 
+  width: '26%'; 
+  padding: '13px 11px';
+}
+
 input {
   border-radius: 7px;
   border-width: 1px;
