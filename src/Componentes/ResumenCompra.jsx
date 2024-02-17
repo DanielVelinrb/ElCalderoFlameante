@@ -1,10 +1,11 @@
 import productos from '../Data/listaProductosCompra.json';
 
 
-export const ResumenCompra = () => {
+export const ResumenCompra = (props) => {
 
     return (
 <div style={{padding: '20px 80px'}}>
+<h2 style={{fontSize: '26px', color: '#1D3E43'}}>{props.titulo}</h2>
   <table style={{ width: '100%', borderCollapse: 'collapse' }}>
     <thead>
       <tr>
@@ -28,11 +29,19 @@ export const ResumenCompra = () => {
           <td style={{ textAlign: 'center' }}>
             <img src="./Imagenes/delete.png" alt="Eliminar" height="40" />
           </td>
-          <td style={{ borderRight: '2px solid black' }}>${producto.precio.toFixed(2)}</td> {/* Línea vertical para cada fila de producto */}
+          <td style={{ borderRight: '2px solid black' }}>${producto.precio.toFixed(2)}</td> 
           <td style={{ textAlign: 'center' }}>${(producto.cantidad * producto.precio).toFixed(2)}</td>
         </tr>
       ))}
     </tbody>
+    <tfoot>
+  <tr style={{background: "#E8D2A3"}}>
+    <td colSpan="5" style={{ textAlign: 'right', paddingRight: '6%'}}>Total:</td>
+    <td style={{ borderLeft: '2px solid black', textAlign: 'center' }}>
+      ${productos.productos.reduce((acc, producto) => acc + (producto.cantidad * producto.precio), 0).toFixed(2)}
+    </td>
+  </tr>
+</tfoot>
   </table>
 </div>
 
