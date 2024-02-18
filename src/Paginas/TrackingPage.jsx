@@ -18,7 +18,7 @@ export const TrackingPage = () => {
           <div style={{ display: 'inline-block', width: '80px' }}></div> 
           <button style={{ background: '#1D3E43', color: '#E8D2A3', fontSize: '26px', width: '26%', padding: '13px 11px'}}>Descargar XML</button>
       </div>
-      <Mapa titulo="Estado de la Entrega"></Mapa>
+      <Mapa titulo="Estado de la Entrega" barraCarga={true}></Mapa>
     </div>
   );
 }

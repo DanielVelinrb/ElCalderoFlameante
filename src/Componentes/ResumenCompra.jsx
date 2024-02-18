@@ -50,10 +50,10 @@ export const ResumenCompra = (props) => {
           <td tabIndex={0} style={{ textAlign: 'left' }}>{producto.nombre}</td>
           <td style={{ textAlign: 'center'}}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <button  style={{borderRadius: '50%', color: 'black', backgroundColor: 'white', border: '2px solid black', 
+            <button  aria-label="Boton restar productos" style={{borderRadius: '50%', color: 'black', backgroundColor: 'white', border: '2px solid black', 
             cursor: 'pointer', padding: '5px 10px'}} tabIndex={0} onClick={() => handleDecrement(index)}>-</button>
               <p tabIndex={0} style={{padding: '0px 20px'}}>{producto.cantidad}</p>      
-            <button style={{borderRadius: '50%', color: 'black', backgroundColor: 'white', border: '2px solid black', 
+            <button aria-label="Boton agregar productos" style={{borderRadius: '50%', color: 'black', backgroundColor: 'white', border: '2px solid black', 
             cursor: 'pointer', padding: '5px 10px'}} tabIndex={0} onClick={() => handleIncrement(index)}>+</button>      
             </div>
           </td>
