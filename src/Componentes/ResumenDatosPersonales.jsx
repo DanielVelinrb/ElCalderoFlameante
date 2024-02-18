@@ -6,24 +6,24 @@ export const ResumenDatosPersonales = (props) => {
         <div style={{padding: '0px 10%'}}>
     
             <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '20px' , fontSize: '24px'}}>
-                <div style={{ width: '44%' }}>
+                <div style={{ width: '44%'}}>
                     <span tabIndex={0} style={{fontSize: '22px', color: '#1D3E43', fontWeight: 'bold'}}>Nombre</span>
-                    <label tabIndex={0} style={{ display: 'block', border: '1px solid black', height: '40px', fontSize: '22px', marginTop: '5px'}}>{props.formData.nombre}</label>
+                    <label tabIndex={0} style={{ display: 'block', border: '1px solid black', height: '40px', fontSize: '22px', marginTop: '5px', borderRadius: '8px'}}>{props.formData.nombre}</label>
                 </div>
                 <div style={{ width: '44%' }}>
                     <span tabIndex={0} style={{fontSize: '22px', color: '#1D3E43', fontWeight: 'bold'}}>C.I</span>
-                    <label tabIndex={0} style={{ display: 'block', border: '1px solid black', height: '40px', fontSize: '22px', marginTop: '5px'}}>{props.formData.ci}</label>
+                    <label tabIndex={0} style={{ display: 'block', border: '1px solid black', height: '40px', fontSize: '22px', marginTop: '5px' , borderRadius: '8px'}}>{props.formData.ci}</label>
                 </div>
             </div>
     
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <div style={{ width: '44%' }}>
                     <span tabIndex={0} style={{fontSize: '22px', color: '#1D3E43', fontWeight: 'bold'}}>Dirección</span>
-                    <label tabIndex={0} style={{ display: 'block', border: '1px solid black', height: '40px', fontSize: '22px', marginTop: '5px'}}>{props.formData.direccion}</label>
+                    <label tabIndex={0} style={{ display: 'block', border: '1px solid black', height: '40px', fontSize: '22px', marginTop: '5px' , borderRadius: '8px'}}>{props.formData.direccion}</label>
                 </div>
                 <div style={{ width: '44%' }}>
                     <span tabIndex={0} style={{fontSize: '22px' , color: '#1D3E43', fontWeight: 'bold'}}>Teléfono</span>
-                    <label tabIndex={0} style={{ display: 'block', border: '1px solid black', height: '40px', fontSize: '22px', marginTop: '5px'}}>{props.formData.telefono}</label>
+                    <label tabIndex={0} style={{ display: 'block', border: '1px solid black', height: '40px', fontSize: '22px', marginTop: '5px' , borderRadius: '8px'}}>{props.formData.telefono}</label>
                 </div>
             </div>
         </div>
