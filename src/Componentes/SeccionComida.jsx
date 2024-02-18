@@ -2,11 +2,11 @@ import data from '../Data/seccionesComida.json';
 
 export const SeccionComida = () => {
     return (
-      <div>
+      <>
       {data.secciones.map((seccion) => (
-        <div id={seccion.id}>
-          <img src={seccion.imagenSeccion} alt={seccion.nombre} width="100%" height="302px" tabIndex={0}/>
-          <h2 style={{fontSize: '26px', color: '#1D3E43', paddingLeft: '80px'}} tabIndex={0}>{seccion.nombre}</h2>
+        <seccion id={seccion.id} key={seccion.id} aria-label={seccion.nombre} tabIndex={0}>
+          {/* <img src={seccion.imagenSeccion} alt={seccion.nombre} width="100%" height="302px" tabIndex={0}/> */}
+          <h2 style={{fontSize: '26px', color: '#1D3E43', paddingLeft: '40px'}} tabIndex={1}>{seccion.nombre}</h2>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', paddingBottom: '70px'}}>
           {seccion.productos.map((producto) => (
               <div key={producto.id} style={{ display: 'flex', width: '40%', margin: '10px', textAlign: 'left', 
@@ -42,9 +42,9 @@ export const SeccionComida = () => {
               </div>
             ))}
           </div>
-        </div>
+        </seccion>
       ))}
-    </div>
+   </>
       );
     }
 
