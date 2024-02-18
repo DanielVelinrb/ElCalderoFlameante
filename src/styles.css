@@ -2,9 +2,25 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 117px;
-    padding: 10px 38px;
+    height: auto; /* Cambiado a altura automática */
+    padding: 1.5em 2em; 
     background-color: #1D3E43;
+    border-radius: 10px;
+    
+
+    @media (max-width: 650px) {
+      flex-direction: column; /* Cambiar a disposición de columna en pantallas más pequeñas */
+      text-align: center; /* Centrar el texto en pantallas más pequeñas */
+      padding: 1em; /* Ajustar el padding en pantallas más pequeñas */
+  }
+}
+
+.banner{
+  width: 100%;
+  border-radius: 10px;
+  max-width:"100%";
+  height:"auto";
+
 }
 
 .menu-itemsFood {

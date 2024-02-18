@@ -6,7 +6,7 @@ export const NavigationMenu = () => {
     return (
         <nav className="navbar" role="navigation" aria-label="Navegacion Principal">
           <Link to="/" className="logo">
-            <img src="./Imagenes/logo.png" alt="El caldero flameante - restaurante de comida mexicana" height="80" />
+            <img src="./Imagenes/logo.png" alt="El caldero flameante - fast food and grill" height="80" />
           </Link>
           <div className="menu-items">
             <Link to="/"><u>MENÚ</u></Link>
