@@ -82,3 +82,14 @@ body {
 .gold-text{
   color: #E8D2A3;
 }
+
+.product-imagen{
+  display: block;
+  width: auto;
+  max-height: 300px ;
+  object-fit: cover
+}
+
+.product{
+ font-size: 1.25em !important;
+}
