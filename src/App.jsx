@@ -9,16 +9,16 @@ import { Footer } from './Componentes/Footer';
 function App() {
   return (
     <Router>
-    <div className="App">
-    <NavigationMenu /> 
-      <Routes>
-        <Route path="/" element={<HomePage />} exact />
-        <Route path="/CarPage" element={<CarPage />} />
-        <Route path="/TrackingPage" element={<TrackingPage />} />
-      </Routes>
-      <Footer/>
-    </div>
-  </Router>
+      <div className="App">
+        <NavigationMenu />
+        <Routes>
+          <Route path="/" element={<HomePage />} exact />
+          <Route path="/CarPage" element={<CarPage />} />
+          <Route path="/TrackingPage" element={<TrackingPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

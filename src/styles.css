@@ -71,3 +71,14 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+.footer-list{
+  color: #fff;
+  font-size: 1.25em;
+}
+.footer-list p i{
+  padding-right: 1em;
+}
+.gold-text{
+  color: #E8D2A3;
+}
