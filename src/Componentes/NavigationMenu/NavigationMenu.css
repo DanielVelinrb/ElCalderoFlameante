@@ -1,16 +1,12 @@
+.blue-bg{
+  background-color: #1D3E43;
+}
 .navbar {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 80px;
     padding: 10px 38px 10px 38px;
-    background-color: #1D3E43;
   }
   
-  
   .menu-items {
-    display: flex;
-    align-items: center;
     gap: 30px;
   }
   

@@ -6,8 +6,7 @@
     padding: 1.5em 2em; 
     background-color: #1D3E43;
     border-radius: 10px;
-    
-
+  
     @media (max-width: 650px) {
       flex-direction: column; /* Cambiar a disposición de columna en pantallas más pequeñas */
       text-align: center; /* Centrar el texto en pantallas más pequeñas */
@@ -92,4 +91,16 @@ body {
 
 .product{
  font-size: 1.25em !important;
+}
+
+
+@media (min-width: 768px) {
+  .line-column {
+    border-right: 1px solid #ccc;
+    padding-right: 15px;
+  }
+  .line-column:last-child {
+    border-right: none;
+    margin-right: 0;
+  }
 }
