@@ -1,12 +1,17 @@
 import React from 'react';
 import { ResumenCompra } from '../Componentes/ResumenCompra';
+import { Navigate} from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import { ResumenDatosPersonales } from '../Componentes/ResumenDatosPersonales';
 import { Mapa } from '../Componentes/Mapa';
 
 export const TrackingPage = () => {
   const location = useLocation();
-  const formData = location.state.formData;
+  const formData = location.state?.formData;
+
+  if (!formData) {
+    return <Navigate replace to="/" />;
+  }
 
   return (
     <div>
