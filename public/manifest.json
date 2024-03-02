@@ -1,9 +1,5 @@
 {
     "short_name": "CalderoFlameante",
-    "name": "El Caldero Flameante",
-    "start_url": "/",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
+    "name": "El Caldero Flameante"
   }
   
